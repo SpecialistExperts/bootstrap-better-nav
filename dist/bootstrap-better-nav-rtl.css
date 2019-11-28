@@ -1,0 +1,9 @@
+body #side-menu {
+    right: unset;
+    left: -300px;
+  }
+  
+  body.side-menu-visible #side-menu {
+    transform: translateX(300px);
+  }
+  
